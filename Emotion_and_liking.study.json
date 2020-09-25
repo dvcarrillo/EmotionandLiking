@@ -2069,7 +2069,8 @@
         ]
       },
       "title": "Introduction",
-      "_collapsed": true
+      "_collapsed": true,
+      "_tab": "Content"
     },
     "88": {
       "id": "88",
@@ -2101,7 +2102,7 @@
             {
               "required": true,
               "type": "text",
-              "content": "Your participation is entirely voluntary and anonymous. All data is treated in strict confidence and handled securely. <br/><br/>\nThe anonymized data will be made available to other researchers and the results of the study will be published. <br/><br/>\nThis research implies no known risks or direct benefits.",
+              "content": "Your participation is entirely voluntary and anonymous. All data is treated in strict confidence and handled securely as per GDPR and local regulations. <br/><br/>\nThe anonymized data will be made available to other researchers and the results of the study will be published. <br/><br/>\nThis research implies no known risks or direct benefits.",
               "title": "Terms of participation"
             }
           ],
@@ -2233,7 +2234,7 @@
         ]
       },
       "title": "Welcome page",
-      "_tab": "Behavior",
+      "_tab": "Content",
       "correctResponse": "Yes"
     },
     "90": {
@@ -2275,7 +2276,7 @@
         ]
       },
       "title": "Headphones",
-      "content": "<header>\n  <h2>Sound calibration</h2>\n</header>\n<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-m\">\n    <div class=\"alert w-100\">\n      <p class=\"font-weight-bold\">\n        You <em>must</em> wear headphones<br>\n        during this study!\n      </p>\n      <p>\n        If you are not already wearing headphones,<br>\n        please put some on before continuing.\n      </p>\n    </div>\n    <p>\n      Click below after you have fitted your headphones<br>\n      to start the calibration.\n    </p>\n  </div>\n</main>\n<footer class=\"content-horizontal-right\">\n  <button id=\"continue\">Continue &rarr;</button>\n</footer>",
+      "content": "<header>\n  <h2>Sound calibration</h2>\n</header>\n<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-m\">\n    <div class=\"alert w-100\">\n      <p class=\"font-weight-bold\">\n        You <em>must</em> wear headphones<br>\n        during this study!\n      </p>\n      <p>\n        If you are not already wearing headphones,<br>\n        please put some on before continuing.\n      </p>\n    </div>\n    <p>\n      Click below when you have fitted your headphones<br>\n      to start the calibration.\n    </p>\n  </div>\n</main>\n<footer class=\"content-horizontal-right\">\n  <button id=\"continue\">Continue &rarr;</button>\n</footer>",
       "_tab": "Content"
     },
     "91": {
@@ -2331,7 +2332,7 @@
         ]
       },
       "title": "Volume calibration",
-      "content": "<header>\n  <h2>Sound calibration</h2>\n</header>\n<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-m text-justify\">\n    <div class=\"alert w-100 text-center\">\n      <p class=\"font-weight-bold\">\n        We will now calibrate<br>\n        the volume of your headphones.\n      </p>\n    </div>\n    <p>\n      Please take through the following steps to calibrate your headphones:\n    </p>\n    <ol>\n      <li><strong>Set your computer volume to about 25%</strong> of its maximum level.</li>\n      <li><a href=\"#\">Click here</a> to listen to a calibration sound. <strong>Turn up the volume on your computer until the calibration sound is at a loud but comfortable level.</strong> You can listen to it as many times as you like.</li>\n    </ol>\n    <p>Click below once you have set the computer volume to a loud but comfortable level</p>\n  </div>\n</main>\n<footer class=\"content-horizontal-right\">\n  <button id=\"continue\">Continue &rarr;</button>\n</footer>",
+      "content": "<header>\n  <h2>Sound calibration</h2>\n</header>\n<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-m text-justify\">\n    <div class=\"alert w-100 text-center\">\n      <p class=\"font-weight-bold\">\n        We will now calibrate<br>\n        the volume of your headphones.\n      </p>\n    </div>\n    <p>\n      Please follow these steps to calibrate your headphones:\n    </p>\n    <ol>\n      <li><strong>Set your computer volume to about 25%</strong> of its maximum level.</li>\n      <li><a href=\"#\">Click here</a> to listen to a calibration sound. <strong>Turn up the volume on your computer until the calibration sound is at a loud but comfortable level.</strong> You can listen to it as many times as you like.</li>\n    </ol>\n    <p>Click below once you have set the computer volume to a loud but comfortable level</p>\n  </div>\n</main>\n<footer class=\"content-horizontal-right\">\n  <button id=\"continue\">Continue &rarr;</button>\n</footer>",
       "_tab": "Content"
     },
     "92": {
@@ -2379,7 +2380,7 @@
         ]
       },
       "title": "Main Auditory",
-      "_collapsed": false
+      "_collapsed": true
     },
     "93": {
       "id": "93",
@@ -2389,8 +2390,8 @@
           [
             {
               "type": "text",
-              "title": "Trial run",
-              "content": "You will have four practice trials before the actual test starts."
+              "title": "Auditory trial run",
+              "content": "The first part of the test consists of auditory testing. You will now get to try 4 stimuli before the actual test starts. If you have any questions, please let us know. "
             }
           ]
         ]
@@ -2434,7 +2435,7 @@
         ]
       },
       "title": "Info about practice",
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "94": {
       "id": "94",
@@ -2503,7 +2504,7 @@
         ]
       },
       "title": "Trial auditory stimuli",
-      "_tab": "Content",
+      "_tab": "Behavior",
       "_collapsed": false
     },
     "98": {
@@ -2515,7 +2516,7 @@
             {
               "type": "text",
               "title": "Info",
-              "content": "Now the real test starts. It is divided into four blocks. If you want to take a break, you can do so between blocks. Please, click Continue to proceed."
+              "content": "Good job on the trial run. We will now move on to the real experiment. The experiment is divided into four blocks. If you want to take a break, you can do so when the screen says, in between the blocks. Click continue to start."
             }
           ]
         ]
@@ -2878,7 +2879,7 @@
       },
       "title": "Block C",
       "_collapsed": false,
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "107": {
       "id": "107",
@@ -2933,7 +2934,7 @@
         ]
       },
       "title": "Starting block",
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "108": {
       "id": "108",
@@ -3547,8 +3548,8 @@
           [
             {
               "type": "text",
-              "title": "Trial run",
-              "content": "You will have four practice trials before the actual test starts."
+              "title": "Visual trial run",
+              "content": "We will now move on to the next part of the experiment, visual testing. You will get to try 4 stimuli before the actual test starts. If you have any questions, please let us know."
             }
           ]
         ]
@@ -3716,7 +3717,7 @@
         ]
       },
       "title": "Info real test",
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "132": {
       "id": "132",
@@ -3764,7 +3765,7 @@
       "title": "Main visual sequence",
       "shuffle": true,
       "_collapsed": false,
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "133": {
       "id": "133",
@@ -3810,7 +3811,7 @@
       },
       "title": "Block J",
       "_collapsed": false,
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "134": {
       "id": "134",
@@ -4029,7 +4030,7 @@
       },
       "title": "Block P",
       "_collapsed": false,
-      "_tab": "Files"
+      "_tab": "Scripts"
     },
     "141": {
       "id": "141",
@@ -4084,7 +4085,7 @@
         ]
       },
       "title": "Starting block",
-      "_tab": "Files"
+      "_tab": "Content"
     },
     "142": {
       "id": "142",
@@ -4447,8 +4448,7 @@
       "children": [
         "155",
         "157",
-        "214",
-        "162"
+        "214"
       ],
       "files": {
         "rows": []
@@ -5038,7 +5038,7 @@
             {
               "type": "text",
               "title": "Thank you! ",
-              "content": "Thank you for participating in this study! Please get our attention and we will finish the study for you."
+              "content": "Thank you for participating in this study! You did really good. Please get our attention and we will finish the study for you. "
             }
           ]
         ]
@@ -5680,7 +5680,7 @@
     "214": {
       "id": "214",
       "type": "lab.html.Form",
-      "content": "<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-l text-left\" style=\"display: block\">\n    \n    <h2 class=\"text-center\">Please tell us about yourself</h2>\n    <p class=\"text-center\">Finally, we would like to learn a bit more about you. </p>\n    \n    <form id=\"demography\">\n      <table>\n        <!-- Age -->\n        <tr style=\"height: 50px\">\n          <td class=\"font-weight-bold\">\n            How old are you, in years?\n          </td>\n          <td>\n            <input name=\"age\" type=\"number\" required class=\"w-100\">\n          </td>\n        </tr>\n        \n        <!-- Gender identity, following Tate et al. (2013) -->\n        <tr style=\"height: 100px\">\n          <td class=\"font-weight-bold\">\n            What is your current gender identity?\n          </td>\n          <td>\n            <select name=\"gender\" required class=\"w-100\">\n              <option value=\"\" selected>\n                -- Please click to select --\n              </option>\n              <option value=\"female\">Female</option>\n              <option value=\"male\">Male</option>\n              <option value=\"other\">Other</option>\n            </select>\n          </td>\n        </tr>\n        \n        <!-- Birth-assigned gender category, following Tate et al.\n          <tr style=\"height: 100px\">\n            <td>\n              Which gender were you assigned at birth?\n            </td>\n            <td>\n              <select style=\"width: 200px\" name=\"gender-birth\">\n                <option value=\"\" selected>\n                  -- Please click to select --\n                </option>\n                <option value=\"female\">Female</option>\n                <option value=\"male\">Male</option>\n                <option value=\"intersex\">Intersex</option>\n              </select>\n            </td>\n          </tr>\n        -->\n\n        Education\n        <tr style=\"height: 100px\">\n          <td>\n            Please specify your highest degree:\n          </td>\n          <td>\n            <select name=\"education\" class=\"w-100\">\n              <option value=\"\" selected>\n                -- Please click to select --\n              </option>\n              <option value=\"no\">no degree</option>\n              <option value=\"highschool\">High school diploma</option>\n              <option value=\"bachelor\">Bachelor's</option>\n              <option value=\"master\">Master's</option>\n              <option value=\"phd\">PhD</option>\n            </select>\n          </td>\n        </tr>\n        \n\n        Artistic education\n        <tr style=\"height: 100px\">\n          <td>\n            Do you have any artistic education (music or arts)? \n          </td>\n          <td>\n            <input name=\"Art_edu\" class=\"w-100\">\n          </td>\n        </tr>\n        \n\n        <!-- Column balance -->\n        <colgroup>\n          <col style=\"width: 45%\">\n          <col style=\"width: 65%\">\n        </colgroup>\n      </table>\n    </form>\n  </div>\n</main>\n\n<footer class=\"content-vertical-center content-horizontal-right\">\n  <button type=\"submit\" form=\"demography\">Continue &rarr;</button>\n</footer>",
+      "content": "<main class=\"content-horizontal-center content-vertical-center\">\n  <div class=\"w-l text-left\" style=\"display: block\">\n    \n    <h2 class=\"text-center\">Please tell us about yourself</h2>\n    <p class=\"text-center\">Finally, we would like to learn a bit more about you. </p>\n    \n    <form id=\"demography\">\n      <table>\n        <!-- Age -->\n        <tr style=\"height: 50px\">\n          <td class=\"font-weight-bold\">\n            How old are you, in years?\n          </td>\n          <td>\n            <input name=\"age\" type=\"number\" required class=\"w-100\">\n          </td>\n        </tr>\n        \n        <!-- Gender identity, following Tate et al. (2013) -->\n        <tr style=\"height: 100px\">\n          <td class=\"font-weight-bold\">\n            What is your current gender identity?\n          </td>\n          <td>\n            <select name=\"gender\" required class=\"w-100\">\n              <option value=\"\" selected>\n                -- Please click to select --\n              </option>\n              <option value=\"female\">Female</option>\n              <option value=\"male\">Male</option>\n              <option value=\"other\">Other</option>\n            </select>\n          </td>\n        </tr>\n        \n        <!-- Birth-assigned gender category, following Tate et al.\n          <tr style=\"height: 100px\">\n            <td>\n              Which gender were you assigned at birth?\n            </td>\n            <td>\n              <select style=\"width: 200px\" name=\"gender-birth\">\n                <option value=\"\" selected>\n                  -- Please click to select --\n                </option>\n                <option value=\"female\">Female</option>\n                <option value=\"male\">Male</option>\n                <option value=\"intersex\">Intersex</option>\n              </select>\n            </td>\n          </tr>\n        -->\n\n        Education\n        <tr style=\"height: 100px\">\n          <td>\n            Please specify your highest degree:\n          </td>\n          <td>\n            <select name=\"education\" class=\"w-100\">\n              <option value=\"\" selected>\n                -- Please click to select --\n              </option>\n              <option value=\"no\">No degree</option>\n              <option value=\"highschool\">High school diploma</option>\n              <option value=\"bachelor\">Bachelor's</option>\n              <option value=\"master\">Master's</option>\n              <option value=\"phd\">PhD</option>\n            </select>\n          </td>\n        </tr>\n        \n\n        Artistic education\n        <tr style=\"height: 100px\">\n          <td>\n            Do you have any artistic education (music or arts)? \n          </td>\n          <td>\n            <select name=\"Art_edu\" class=\"w-100\">\n              <option value=\"\" selected>\n                  -- Please click to select --\n                </option>\n                <option value=\"no\">No artistic education</option>\n                <option value=\"music\">Music education</option>\n                <option value=\"art\">Art education</option>\n                <option value=\"music_art\">Music and art education</option>\n            </select>\n          </td>\n        </tr>\n        \n\n        <!-- Column balance -->\n        <colgroup>\n          <col style=\"width: 45%\">\n          <col style=\"width: 65%\">\n        </colgroup>\n      </table>\n    </form>\n  </div>\n</main>\n\n<footer class=\"content-vertical-center content-horizontal-right\">\n  <button type=\"submit\" form=\"demography\">Continue &rarr;</button>\n</footer>",
       "parameters": {
         "rows": [
           [
@@ -5727,7 +5727,8 @@
         "87",
         "92",
         "124",
-        "154"
+        "154",
+        "162"
       ],
       "parameters": {
         "rows": [
