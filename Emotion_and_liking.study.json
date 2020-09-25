@@ -2069,7 +2069,7 @@
         ]
       },
       "title": "Introduction",
-      "_collapsed": true
+      "_collapsed": false
     },
     "88": {
       "id": "88",
@@ -2125,13 +2125,16 @@
               "type": "radio",
               "options": [
                 {
-                  "label": "Yes"
+                  "label": "Yes",
+                  "coding": "yes"
                 },
                 {
-                  "label": "No"
+                  "label": "No",
+                  "coding": "no"
                 }
               ],
-              "label": "I am aged 18 or above"
+              "label": "I am aged 18 or above",
+              "name": "declaration-age"
             }
           ],
           [
@@ -2140,13 +2143,16 @@
               "type": "radio",
               "options": [
                 {
-                  "label": "Yes"
+                  "label": "Yes",
+                  "coding": "yes"
                 },
                 {
-                  "label": "No"
+                  "label": "No",
+                  "coding": "no"
                 }
               ],
-              "label": "I have normal or corrected-to-normal vision and hearing"
+              "label": "I have normal or corrected-to-normal vision and hearing",
+              "name": "declaration-vision"
             }
           ],
           [
@@ -2155,13 +2161,16 @@
               "type": "radio",
               "options": [
                 {
-                  "label": "Yes"
+                  "label": "Yes, I don't have",
+                  "coding": "yes"
                 },
                 {
-                  "label": "No"
+                  "label": "No, I have",
+                  "coding": "no"
                 }
               ],
-              "label": "I have no cognitive impairments"
+              "label": "I have no cognitive impairments",
+              "name": "declaration-impairments"
             }
           ],
           [
@@ -2170,13 +2179,16 @@
               "type": "radio",
               "options": [
                 {
-                  "label": "Yes"
+                  "label": "Yes",
+                  "coding": "yes"
                 },
                 {
-                  "label": "No"
+                  "label": "No",
+                  "coding": "no"
                 }
               ],
-              "label": "I declare having read and understood the disclaimer and information above, and agree to participate"
+              "label": "I declare having read and understood the disclaimer and information above, and agree to participate",
+              "name": "declaration-agreement"
             }
           ],
           [
@@ -2225,16 +2237,17 @@
         "rows": [
           [
             {
-              "title": "",
-              "message": "",
-              "code": ""
+              "title": "options-check",
+              "message": "run",
+              "code": "// Save relevant radio buttons\nlet declarationAgeInput = document.querySelector('#declaration-age-yes');\nlet declarationVisionInput = document.querySelector('#declaration-vision-yes');\nlet declarationImpairmentsInput = document.querySelector('#declaration-impairments-yes');\nlet declarationAgreementInput = document.querySelector('#declaration-agreement-yes');\n\n// Save and disable continue button\nlet continueButton = document.querySelector('button[type=\"submit\"]');\ncontinueButton.disabled = true;\n\n// Checks relevant radio buttons when clicking on any radio button\ncheckRadioButton = () => {\n  if (declarationAgeInput.checked &&\n      declarationVisionInput.checked &&\n      declarationImpairmentsInput.checked &&\n      declarationAgreementInput.checked) {\n        continueButton.disabled = false;\n  }\n  else {\n    continueButton.disabled = true;\n  }\n}\n\n// Attach a focusout listener to all radio buttons\nArray.from(document.querySelectorAll('input')).map(elem => elem.addEventListener(\"click\", checkRadioButton));\n\n\n\n"
             }
           ]
         ]
       },
       "title": "Welcome page",
-      "_tab": "Behavior",
-      "correctResponse": "Yes"
+      "_tab": "Content",
+      "correctResponse": "Yes",
+      "width": "l"
     },
     "90": {
       "id": "90",
@@ -5717,7 +5730,7 @@
       "files": {
         "rows": []
       },
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "root": {
       "id": "root",
