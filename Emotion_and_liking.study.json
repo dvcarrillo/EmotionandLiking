@@ -2087,7 +2087,7 @@
             {
               "required": true,
               "type": "text",
-              "content": "This study is conducted by four students enrolled in the course Human Perception for Information Technology at KTH Royal Institute of Technology. <b>Please read the following information before participating.</b><br/><br/>\n\nWe are interested in exploring liking and emotion across sensory modalities and will do so by presenting a number of images and music clips that you will be asked to rate according to your liking and perceived emotion. <br/><br/>\n\nThe whole session should take about 40 minutes. You are welcome to take breaks between tasks, but it is important that you perform each task without interruptions. By the end, you will also be asked to fill out two questionnaires, and provide some demographic information. ",
+              "content": "This study is conducted by students enrolled in the course Human Perception for Information Technology at KTH Royal Institute of Technology. <b>Please read the following information before participating.</b><br/><br/>\n\nWe are interested in exploring liking and emotion across sensory modalities and will do so by presenting a number of images and music clips that you will be asked to rate according to your liking and perceived emotion. <br/><br/>\n\nThe whole session should take about 40 minutes. You are welcome to take breaks between tasks, but it is important that you perform each task without interruptions. By the end, you will also be asked to fill out two questionnaires, and provide some demographic information. ",
               "title": "About the study"
             }
           ],
@@ -2116,7 +2116,7 @@
               "required": true,
               "type": "text",
               "title": "Requirements and consent",
-              "content": "In order to take part in this study you need to be at least 18 years of age, have normal or corrected-to-normal vision and hearing, and no \ncognitive impairments.<br/><br/>\nPlease answer the following questions in order to confirm your participation. You are welcome to withdraw at any time and without justification."
+              "content": "In order to take part in this study, you need to be at least 18 years of age, have normal or corrected-to-normal vision and hearing, and no \ncognitive impairments.<br/><br/>\nPlease answer the following questions in order to confirm your participation. You are welcome to withdraw at any time and without justification."
             }
           ],
           [
@@ -2378,7 +2378,7 @@
           ]
         ]
       },
-      "title": "Main Auditorial",
+      "title": "Main Auditory",
       "_collapsed": false
     },
     "93": {
@@ -2390,7 +2390,7 @@
             {
               "type": "text",
               "title": "Trial run",
-              "content": "You will now get to try 4 stimulis before the actual test starts"
+              "content": "You will have four practice trials before the actual test starts."
             }
           ]
         ]
@@ -2502,7 +2502,7 @@
           ]
         ]
       },
-      "title": "Trial audiotorial stimuli",
+      "title": "Trial auditory stimuli",
       "_tab": "Content",
       "_collapsed": false
     },
@@ -2515,7 +2515,7 @@
             {
               "type": "text",
               "title": "Info",
-              "content": "Now the real experiment will start. It is divided into four blocks. If you want to take a break, you can do so when the screen says, in between the blocks. Click continue to start. "
+              "content": "Now the real test starts. It is divided into four blocks. If you want to take a break, you can do so between blocks. Please, click Continue to proceed."
             }
           ]
         ]
@@ -2604,7 +2604,7 @@
           ]
         ]
       },
-      "title": "Main audiotorial sequence",
+      "title": "Main audiotory sequence",
       "shuffle": true,
       "_collapsed": false,
       "_tab": "Scripts"
@@ -2664,7 +2664,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -2830,7 +2830,7 @@
           ]
         ]
       },
-      "title": "Block B auditorial stimuli",
+      "title": "Block B auditory stimuli",
       "_tab": "Content",
       "_collapsed": false
     },
@@ -2889,7 +2889,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -3055,7 +3055,7 @@
           ]
         ]
       },
-      "title": "Block C auditorial stimuli",
+      "title": "Block C auditory stimuli",
       "_tab": "Content",
       "_collapsed": false
     },
@@ -3113,7 +3113,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -3279,7 +3279,7 @@
           ]
         ]
       },
-      "title": "Block K auditorial stimuli",
+      "title": "Block K auditory stimuli",
       "_tab": "Content",
       "_collapsed": false
     },
@@ -3338,7 +3338,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -3504,7 +3504,7 @@
           ]
         ]
       },
-      "title": "Block S auditorial stimuli",
+      "title": "Block S auditory stimuli",
       "_tab": "Content",
       "_collapsed": false
     },
@@ -3548,7 +3548,7 @@
             {
               "type": "text",
               "title": "Trial run",
-              "content": "You will now get to try 4 stimulis before the actual test starts"
+              "content": "You will have four practice trials before the actual test starts."
             }
           ]
         ]
@@ -3672,7 +3672,7 @@
             {
               "type": "text",
               "title": "Info",
-              "content": "Now the real experiment will start. It is divided into three blocks. If you want to take a break, you can do so when the screen says, in between the blocks. Click continue to start. "
+              "content": "Now the real experiment starts. It is divided into three blocks. If you want to take a break, you can do so between blocks. Pelase, click Continue to proceed."
             }
           ]
         ]
@@ -3821,7 +3821,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -4040,7 +4040,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -4271,7 +4271,7 @@
             {
               "type": "text",
               "content": "If you want to take a break before starting, please do so now. </br> </br>\n\nTo start, click Continue",
-              "title": "You are now about  to start a new block."
+              "title": "You are now about to start a new block."
             }
           ]
         ]
@@ -4496,8 +4496,8 @@
           [
             {
               "type": "text",
-              "title": "Thank you so much for completing the first part",
-              "content": "Now there are just 2 questionnaires left."
+              "title": "Thank you so much for completing the tasks.",
+              "content": "Now, there are just three questionnaires left."
             }
           ]
         ]
@@ -4551,7 +4551,7 @@
             {
               "type": "text",
               "title": "Thank you!",
-              "content": "Now for the final questionnaire"
+              "content": "Now, the second questionnaire."
             }
           ]
         ]
@@ -4858,40 +4858,40 @@
         ],
         "rows": [
           [
-            "I try to anticipate and avoid situations where there is a likely chance of my getting emotionally involved. "
+            "I try to anticipate and avoid situations where there is a likely chance of my getting emotionally involved."
           ],
           [
-            "Experiencing strong emotions is not something I enjoy very much. "
+            "Experiencing strong emotions is not something I enjoy very much."
           ],
           [
-            "I would rather be in a situation in which I experience little emotion than one which is sure to get me emotionally involved. "
+            "I would rather be in a situation in which I experience little emotion than one which is sure to get me emotionally involved."
           ],
           [
             "I don't look forward to being in situations that others have found to be emotional."
           ],
           [
-            "I look forward to situations that I know are less emotionally involving. "
+            "I look forward to situations that I know are less emotionally involving."
           ],
           [
-            "I like to be unemotional in emotional situations. "
+            "I like to be unemotional in emotional situations."
           ],
           [
-            "I find little satisfaction in experiencing strong emotions. "
+            "I find little satisfaction in experiencing strong emotions."
           ],
           [
-            "I prefer to keep my feelings under check. "
+            "I prefer to keep my feelings under check."
           ],
           [
-            "I feel relief rather than fulfilled after experiencing a situation that was very emotional. "
+            "I feel relief rather than fulfilled after experiencing a situation that was very emotional."
           ],
           [
-            "I prefer to ignore the emotional aspects of situations rather than getting involved in them. "
+            "I prefer to ignore the emotional aspects of situations rather than getting involved in them."
           ],
           [
-            "More often than not, making decisions based on emotions just leads to more errors. "
+            "More often than not, making decisions based on emotions just leads to more errors."
           ],
           [
-            "I don't like to have the responsibility of handling a situation that is emotional in nature. "
+            "I don't like to have the responsibility of handling a situation that is emotional in nature."
           ],
           [
             ""
@@ -5038,7 +5038,7 @@
             {
               "type": "text",
               "title": "Thank you! ",
-              "content": "Thank you for participating in this study! Please get our attention and we will finish the study for you. "
+              "content": "Thank you for participating in this study! Please get our attention and we will finish the study for you."
             }
           ]
         ]
