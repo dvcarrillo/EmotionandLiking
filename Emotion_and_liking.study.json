@@ -1149,14 +1149,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Liking",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How much do you like it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n     <p class=\"info-text\">I do not like it at all</p>\r\n      <button\r\n        id=\"like-1\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-2</b><br/>\r\n      </button>\r\n      <button\r\n        id=\"like-2\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-3\"\r\n        class=\"choice\"\r\n      >\r\n      <b>0</b>\r\n      </button>\r\n      <button\r\n        id=\"like-4\"\r\n        class=\"choice\"\r\n      >\r\n      <b>1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-5\"\r\n        class=\"choice neutral\"\r\n      >\r\n      <b>2</b><br/>\r\n      </button>\r\n      <p class=\"info-text\">I like it very much</p>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "46": {
       "id": "46",
@@ -1215,14 +1215,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 1",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"val-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"val-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "47": {
       "id": "47",
@@ -1281,14 +1281,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 2",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "48": {
       "id": "48",
@@ -1394,14 +1394,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Liking",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How much do you like it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n     <p class=\"info-text\">I do not like it at all</p>\r\n      <button\r\n        id=\"like-1\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-2</b><br/>\r\n      </button>\r\n      <button\r\n        id=\"like-2\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-3\"\r\n        class=\"choice\"\r\n      >\r\n      <b>0</b>\r\n      </button>\r\n      <button\r\n        id=\"like-4\"\r\n        class=\"choice\"\r\n      >\r\n      <b>1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-5\"\r\n        class=\"choice neutral\"\r\n      >\r\n      <b>2</b><br/>\r\n      </button>\r\n      <p class=\"info-text\">I like it very much</p>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "50": {
       "id": "50",
@@ -1460,14 +1460,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 1",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"val-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"val-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "51": {
       "id": "51",
@@ -1526,14 +1526,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 2",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "52": {
       "id": "52",
@@ -1639,14 +1639,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Liking",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How much do you like it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n     <p class=\"info-text\">I do not like it at all</p>\r\n      <button\r\n        id=\"like-1\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-2</b><br/>\r\n      </button>\r\n      <button\r\n        id=\"like-2\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-3\"\r\n        class=\"choice\"\r\n      >\r\n      <b>0</b>\r\n      </button>\r\n      <button\r\n        id=\"like-4\"\r\n        class=\"choice\"\r\n      >\r\n      <b>1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-5\"\r\n        class=\"choice neutral\"\r\n      >\r\n      <b>2</b><br/>\r\n      </button>\r\n      <p class=\"info-text\">I like it very much</p>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "54": {
       "id": "54",
@@ -1705,14 +1705,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 1",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"val-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"val-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "55": {
       "id": "55",
@@ -1771,14 +1771,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 2",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "56": {
       "id": "56",
@@ -1884,14 +1884,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Liking",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How much do you like it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n     <p class=\"info-text\">I do not like it at all</p>\r\n      <button\r\n        id=\"like-1\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-2</b><br/>\r\n      </button>\r\n      <button\r\n        id=\"like-2\"\r\n        class=\"choice\"\r\n      >\r\n      <b>-1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-3\"\r\n        class=\"choice\"\r\n      >\r\n      <b>0</b>\r\n      </button>\r\n      <button\r\n        id=\"like-4\"\r\n        class=\"choice\"\r\n      >\r\n      <b>1</b>\r\n      </button>\r\n      <button\r\n        id=\"like-5\"\r\n        class=\"choice neutral\"\r\n      >\r\n      <b>2</b><br/>\r\n      </button>\r\n      <p class=\"info-text\">I like it very much</p>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "58": {
       "id": "58",
@@ -1950,14 +1950,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 1",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"val-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"val-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"val-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Valence-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "59": {
       "id": "59",
@@ -2016,14 +2016,14 @@
             {
               "title": "",
               "message": "before:prepare",
-              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.internals.calibrationClip.play()\r\n}"
+              "code": "this.internals.calibrationClip = new Audio()\r\nthis.internals.calibrationClip.src = \"https://storage.googleapis.com/study-bucket-2020/\" + this.parameters.file + \".wav\"\r\nthis.internals.calibrationClip.load()\r\nthis.data.repeatTimes = 0\r\n\r\nthis.options.events['click a'] = function(e) {\r\n  e.preventDefault()\r\n  this.data.repeatTimes += 1\r\n  this.internals.calibrationClip.play()\r\n}"
             }
           ]
         ]
       },
       "title": "Perceiving 2",
       "content": "<main class=\"content-horizontal-center content-vertical-center\">\r\n  <div>\r\n    <h2>How do you percieve it?</h2>\r\n    <b class=\"w-400 text-center\"><a href=\"#\"> Click here to listen </a></b>\r\n    <div class=\"button-row\">\r\n      <button\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-1.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-2.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-3.svg\" />\r\n      </button>\r\n      <button\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-4.svg\" />\r\n      <!--&nbsp;<br/><b>1</b><br/>&nbsp;<br/>-->\r\n      </button>\r\n      <button\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      >\r\n      <img src=\"https://storage.googleapis.com/study-bucket-2020/Arousal-5.svg\" />\r\n      </button>\r\n    </div>\r\n  </div>\r\n</main>\r\n<footer class=\"content-horizontal-center content-vertical-center\">\r\n  Please make your choice by clicking on one of the buttons.",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "87": {
       "id": "87",
