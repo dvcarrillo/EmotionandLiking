@@ -146,7 +146,8 @@ const study = lab.util.fromObject({
           "responses": {},
           "parameters": {},
           "messageHandlers": {
-            "run": function anonymous() {
+            "run": function anonymous(
+) {
 // Save relevant radio buttons
 let declarationAgeInput = document.querySelector('#declaration-age-yes');
 let declarationVisionInput = document.querySelector('#declaration-vision-yes');
@@ -203,7 +204,8 @@ Array.from(document.querySelectorAll('input')).map(elem => elem.addEventListener
             "click button": "continue"
           },
           "messageHandlers": {
-            "before:prepare": function anonymous() {
+            "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = this.files['noise_calib_stim.wav']
 this.internals.calibrationClip.load()
@@ -213,7 +215,8 @@ this.options.events['click a'] = function(e) {
   this.internals.calibrationClip.play()
 }
 },
-            "end": function anonymous() {
+            "end": function anonymous(
+) {
 delete this.internals.calibrationClip
 }
           },
@@ -581,7 +584,7 @@ delete this.internals.calibrationClip
                             "parameters": {},
                             "messageHandlers": {},
                             "title": "Perceiving 2",
-                            "content": "\u003Cmain class=\"content-horizontal-center content-vertical-center\"\u003E\r\n  \u003Cdiv\u003E\r\n    \u003Ch2\u003EHow do you perceive it?\u003C\u002Fh2\u003E\r\n    \u003Cimg src=${\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002F\" + this.parameters.file + \".png\"} class=\"image\"\u002F\u003E\r\n    \u003Cdiv class=\"button-row\"\u003E\r\n     \u003Cp class=\"info-text\"\u003ECalm\u003C\u002Fp\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-1.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-2.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-3.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-4.svg\" \u002F\u003E\r\n      \u003C!--&nbsp;\u003Cbr\u002F\u003E\u003Cb\u003E1\u003C\u002Fb\u003E\u003Cbr\u002F\u003E&nbsp;\u003Cbr\u002F\u003E--\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-5.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cp class=\"info-text\"\u003EExciting\u003C\u002Fp\u003E\r\n    \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fdiv\u003E\r\n\u003C\u002Fmain\u003E\r\n\u003Cfooter class=\"content-horizontal-center content-vertical-center\"\u003E\r\n  Please make your choice by clicking on one of the buttons."
+                            "content": "\u003Cmain class=\"content-horizontal-center content-vertical-center\"\u003E\r\n  \u003Cdiv\u003E\r\n    \u003Ch2\u003EHow do you perceive it?\u003C\u002Fh2\u003E\r\n    \u003Cimg src=${\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002F\" + this.parameters.file + \".png\"} class=\"image\"\u002F\u003E\r\n    \u003Cdiv class=\"button-row\"\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-1\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-1.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-2\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-2.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-3\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-3.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-4\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-4.svg\" \u002F\u003E\r\n      \u003C!--&nbsp;\u003Cbr\u002F\u003E\u003Cb\u003E1\u003C\u002Fb\u003E\u003Cbr\u002F\u003E&nbsp;\u003Cbr\u002F\u003E--\u003E\r\n      \u003C\u002Fbutton\u003E\r\n      \u003Cbutton\r\n        id=\"arousal-5\"\r\n        class=\"choice\"\r\n      \u003E\r\n      \u003Cimg src=\"https:\u002F\u002Fstorage.googleapis.com\u002Fstudy-bucket-2020\u002FArousal-5.svg\" \u002F\u003E\r\n      \u003C\u002Fbutton\u003E\r\n    \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fdiv\u003E\r\n\u003C\u002Fmain\u003E\r\n\u003Cfooter class=\"content-horizontal-center content-vertical-center\"\u003E\r\n  Please make your choice by clicking on one of the buttons."
                           }
                         ]
                       }
@@ -1085,7 +1088,8 @@ delete this.internals.calibrationClip
                     },
                     "parameters": {},
                     "messageHandlers": {
-                      "before:prepare": function anonymous() {
+                      "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1111,7 +1115,8 @@ this.options.events['click a'] = function(e) {
                     },
                     "parameters": {},
                     "messageHandlers": {
-                      "before:prepare": function anonymous() {
+                      "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1137,7 +1142,8 @@ this.options.events['click a'] = function(e) {
                     },
                     "parameters": {},
                     "messageHandlers": {
-                      "before:prepare": function anonymous() {
+                      "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1336,7 +1342,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1364,7 +1371,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1392,7 +1400,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1568,7 +1577,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1596,7 +1606,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1624,7 +1635,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1800,7 +1812,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1828,7 +1841,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -1856,7 +1870,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -2032,7 +2047,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -2060,7 +2076,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -2088,7 +2105,8 @@ this.options.events['click a'] = function(e) {
                             },
                             "parameters": {},
                             "messageHandlers": {
-                              "before:prepare": function anonymous() {
+                              "before:prepare": function anonymous(
+) {
 this.internals.calibrationClip = new Audio()
 this.internals.calibrationClip.src = "https://storage.googleapis.com/study-bucket-2020/" + this.parameters.file + ".wav"
 this.internals.calibrationClip.load()
@@ -2331,7 +2349,8 @@ this.options.events['click a'] = function(e) {
           "parameters": {},
           "responses": {},
           "messageHandlers": {
-            "before:prepare": function anonymous() {
+            "before:prepare": function anonymous(
+) {
 checkAgeInput = () => {
   let ageInput = document.querySelector('#age-input');
   let ageErrorBox = document.querySelector('#age-error-box');
